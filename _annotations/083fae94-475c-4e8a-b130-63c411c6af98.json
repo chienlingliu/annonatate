@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.wellcomecollection.org/image/V0011709.jpg/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "A Specimen Jar. This is a relatively large jar, containing alcohol (as the jar is labelled \"Espirit vin\"), is where this extremely long worm is collected. The big size of the jar is needed in order to accommodate the volume of this worm of a great length after it is coiled.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "chienlingliu",
+                "name": "Chien-Ling Liu Zeleny"
+            },
+            "created": "2025-05-20T16:15:54.852Z",
+            "modified": "2025-05-20T16:16:39.008Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiif.wellcomecollection.org/image/V0011709.jpg/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2264.344482421875,1624.2724609375,371.156005859375,525.530517578125"
+        }
+    },
+    "id": "083fae94-475c-4e8a-b130-63c411c6af98.json",
+    "motivation": "commenting"
+}
